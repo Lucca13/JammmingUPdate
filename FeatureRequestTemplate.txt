@@ -1,0 +1,11 @@
+Design Document Template
+September 4th 2017
+
+OBJECTIVE
+To make the styles a bit better.
+BACKGROUND 
+The feature of this website is some more fonts, some fixes. And some bugs..
+TECHNICAL DESIGN
+This app does not need to be updated?
+CAVEATS
+If there are any bugs please tell me. Thank you!
