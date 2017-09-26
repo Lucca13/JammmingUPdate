@@ -1,0 +1,55 @@
+/* latin */
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v18/cycBf3mfbGkh66G5NhszPQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+.SearchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.94rem;
+  margin-bottom: 6.33rem;
+}
+
+.SearchBar input {
+  width: 500px;
+  padding: .88rem 0;
+  border: 5px solid #511f86;
+  border-radius: 10px;
+  border-radius: 3px;
+  margin-bottom: 2.22rem;
+  color: #010c3f;
+  text-align: center;
+  font-size: 1.4rem;
+  transition-duration: 1s;
+  transition-property: border;
+}
+
+.SearchBar input:focus,
+.SearchBar input:hover {
+  outline: none;
+  border: 5px solid #21c6ad;
+}
+
+.searchBTN {
+  font-family: 'Lobster', cursive;
+}
+
+.SearchBar a {
+  cursor: pointer;
+  width: 8.11rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  background-color: #010c3f;
+  text-align: center;
+  font-size: .833rem;
+  transition: background-color .25s;
+}
+
+.SearchBar a:hover {
+  background-color: rgba(108, 65, 233, .7);
+}
